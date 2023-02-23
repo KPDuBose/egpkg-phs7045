@@ -2,17 +2,18 @@
 % Please edit documentation in R/RcppExports.R
 \name{ps_match}
 \alias{ps_match}
-\title{ps_match using cpp}
+\title{Propensity score matching}
 \usage{
 ps_match(x)
 }
 \value{
-A list with two vectors
+A list
 }
 \description{
-ps_match using cpp
+Propensity score matching
 }
 \examples{
+set.seed(1134)
 x <- runif(10)
 ps_match(x)
 }

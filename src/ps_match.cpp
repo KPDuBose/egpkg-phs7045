@@ -1,9 +1,10 @@
 #include <Rcpp.h>
 using namespace Rcpp;
 
-//' ps_match using cpp
-//' @return A list with two vectors
+//' Propensity score matching
+//' @return A list
 //' @examples
+//' set.seed(1134)
 //' x <- runif(10)
 //' ps_match(x)
 //' @export
